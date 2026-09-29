@@ -1,19 +1,19 @@
 package com.krakedev.test;
 
 import com.krakedev.figuras.Cuadrado;
-import com.krakedev.figuras.Triangulo;
+import com.krakedev.figuras.Rectangulo;
 
 public class TestPerimetro {
 
 	public static void main(String[] args) {
 		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo", 5);
-		Triangulo triangulo = new Triangulo("Cono", "Amarillo", 4, 8);
+		Rectangulo rectangulo = new Rectangulo("Cono", "Amarillo", 4, 8);
 		
 		int periCuadrado = cuadrado.calcularPerimetro();
-		int periTriangulo = triangulo.calcularPerimetro();
+		int periRectangulo = rectangulo.calcularPerimetro();
 		
 		System.out.println(periCuadrado);
-		System.out.println(periTriangulo);
+		System.out.println(periRectangulo);
 
 	}
 

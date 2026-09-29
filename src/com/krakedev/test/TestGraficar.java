@@ -11,7 +11,7 @@ public class TestGraficar {
 		Graficador graficador = new Graficador();
 		Figura figura = new Figura("Circulo", "Azul");
 		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo", 4);
-		Rectangulo rectangulo = new Rectangulo("Cono", "Amarillo");
+		Rectangulo rectangulo = new Rectangulo("Cono", "Amarillo", 8, 8);
 		
 		graficador.graficar(figura);
 		graficador.graficar(cuadrado);

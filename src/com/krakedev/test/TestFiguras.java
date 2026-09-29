@@ -9,7 +9,7 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		Figura figura = new Figura("Circulo", "Azul");
 		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo", 5);
-		Triangulo triangulo = new Triangulo("Cono", "Amarillo", 3, 5);
+		Triangulo triangulo = new Triangulo("Cono", "Amarillo");
 		
 		System.out.println(figura);
 		System.out.println(cuadrado);
