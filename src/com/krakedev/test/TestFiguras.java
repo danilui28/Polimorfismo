@@ -7,7 +7,7 @@ import com.krakedev.figuras.Triangulo;
 public class TestFiguras {
 
 	public static void main(String[] args) {
-		Figura figura = new Figura("Circulo", "Azul");
+		Figura figura = new Triangulo("Circulo", "Azul");
 		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo", 5);
 		Triangulo triangulo = new Triangulo("Cono", "Amarillo");
 		
