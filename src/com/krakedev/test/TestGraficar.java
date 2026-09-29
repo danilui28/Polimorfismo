@@ -10,7 +10,7 @@ public class TestGraficar {
 	public static void main(String[] args) {
 		Graficador graficador = new Graficador();
 		Figura figura = new Figura("Circulo", "Azul");
-		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo");
+		Cuadrado cuadrado = new Cuadrado("Cubo", "Rojo", 4);
 		Rectangulo rectangulo = new Rectangulo("Cono", "Amarillo");
 		
 		graficador.graficar(figura);
