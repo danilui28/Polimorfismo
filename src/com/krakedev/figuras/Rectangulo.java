@@ -31,6 +31,11 @@ public class Rectangulo extends Figura {
 	@Override
 	public int calcularPerimetro(){
 		return 2 * base + 2 * altura;
-		}
+	}
+	
+	@Override
+	public double calcularArea(){
+		return base * altura;
+	}
 
 }

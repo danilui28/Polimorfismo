@@ -20,5 +20,10 @@ public class Cuadrado extends Figura {
 	@Override
 	public int calcularPerimetro(){
 		return 4 * lado;
-		}
+	}
+	
+	@Override
+	public double calcularArea(){
+		return lado * lado;
+	}
 }

@@ -3,7 +3,6 @@ package com.krakedev.figuras;
 public class Graficador {
 	
 	public void graficar(Figura figura) {
-		System.out.print(" Graficando " + figura.getNombre() + " de color " + figura.getColor() + ",");
-		figura.calcularPerimetro();
+		System.out.print(" Graficando " + figura.getNombre() + " de color " + figura.getColor() + " con perimetro " + figura.calcularPerimetro() + " y area " + figura.calcularArea() + ",");
 	}
 }
